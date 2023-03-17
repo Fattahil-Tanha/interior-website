@@ -14,7 +14,7 @@
     </style>
 </head>
 
-<body class="container mx-auto">
+<body class="container mx-auto font-mono">
     <header class="">
          <section class="first-nav">
               
@@ -34,12 +34,12 @@
 <!-- second div -->
 
 
-<nav class="p-3 border-gray-200  bg-gray-50 dark:bg-gray-800 dark:border-gray-700 container mx-auto">
+<nav class="p-3 border-gray-200  bg-gray-50 dark:bg-gray-800 dark:border-gray-700 container mx-auto font-mono">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
         <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
           <ul class="flex flex-col mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+              <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
             </li>
             <li>
               <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
@@ -47,7 +47,7 @@
             <li>
               <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
             </li>
-            <li>
+            <li class="mb-3">
               <button type="button" class="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-2 py-2  dark:focus:ring-yellow-900">Акции</button>
             </li>
           </ul>
@@ -73,11 +73,12 @@
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="absolute z-30 h-4/6 flex">
-               <div>
-                <h1 class="lg:text-2xl lg:font-semibold sm:text-2xl sm:ml-32  mx-10 ml-10 mt-2 sm:font-normal">Экономьте до 34% <br> электроэнергии
+               <div class="flex flex-col justify-start">
+                <h1 class="lg:text-3xl lg:font-semibold sm:text-2xl sm:ml-32 mt-2 sm:font-normal">Экономьте до 34% <br> электроэнергии
                     на отоплении</h1>
-                    <p class="lg:text-lg mx-10 ml-10 mt-2 text-gray-900">Соберите отопление из теплоемких каменных <br></p>
-                         <span><button class="bg-red-400 rounded-lg p-2 text-center text-sm ml-4 mt-3">Собрать отопление</button></span> <br>
+                    <p class="lg:text-lg mx-10 text-gray-900">Соберите отопление из теплоемких каменных <br>
+                        радиаторов со сроком службы свыше 20 лет<br></p>
+                         <span><button class="bg-red-500 rounded-lg p-2 text-center text-sm ml-4  lg:mt-36">Собрать отопление</button></span> <br>
                     </div>
                     
                </div>
@@ -241,10 +242,10 @@
 
     <!-- order section -->
 
-    <section class="mt-20 container">
+    <section class="mt-20 container p-2">
         <h1 class="text-4xl font-bold mb-3 ">Ориентировочный расчет стоимости <br> отопления от Heat Stone</h1>
         <hr class="container border-slate-700 mt-4">
-        <div class="container grid md:grid-cols-2 lg:grid-cols-2 mt-6 gap-2">
+        <div class="container grid md:grid-cols-2 lg:grid-cols-2 mt-6 gap-2 border-solid border-2 border-gray-400 rounded-md p-1">
             <div>
                 <img class="rounded-lg" src="carousel images/outsite-co-R-LK3sqLiBw-unsplash.jpg" alt="">
 
@@ -300,32 +301,32 @@
     <section class="mt-20">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">  
 
-            <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
+            <div class="max-w-sm p-6 bg-white ">
                 <img src="icons/icons8-tower-64.png" alt="">
                 <h1 class="text-2xl font-semibold mt-4 mb-3">Отличные показатели теплоемкости</h1>
                 <p class="mb-3 font-normal ">Подобно камню на печи в сауне, радиатор накапливает в себе тепло и мягко согревает помещение. Он долго отдает тепло, потому время активной работы (нагревания) составляет всего 7–8 часов в день. Конструкция радиаторов подразумевает отличную конвекцию – воздушные потоки нагреваются и распространяются по всему помещению.</p>
             </div>
-            <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
+            <div class="max-w-sm p-6 bg-white ">
                 <img src="icons/icons8-fire-extinguisher-48.png" alt="">
                 <h1 class="text-2xl font-semibold mt-4 mb-3">Отличные показатели теплоемкости</h1>
                 <p class="mb-3 font-normal ">Подобно камню на печи в сауне, радиатор накапливает в себе тепло и мягко согревает помещение. Он долго отдает тепло, потому время активной работы (нагревания) составляет всего 7–8 часов в день. Конструкция радиаторов подразумевает отличную конвекцию – воздушные потоки нагреваются и распространяются по всему помещению.</p>
             </div>
-            <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
+            <div class="max-w-sm p-6 bg-white">
                 <img src="icons/icons8-atom-64.png" alt="">
                 <h1 class="text-2xl font-semibold mt-4 mb-3">Отличные показатели теплоемкости</h1>
                 <p class="mb-3 font-normal ">Подобно камню на печи в сауне, радиатор накапливает в себе тепло и мягко согревает помещение. Он долго отдает тепло, потому время активной работы (нагревания) составляет всего 7–8 часов в день. Конструкция радиаторов подразумевает отличную конвекцию – воздушные потоки нагреваются и распространяются по всему помещению.</p>
             </div>
-            <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
+            <div class="max-w-sm p-6 bg-white">
                 <img src="icons/icons8-sandglass-64.png" alt="">
                 <h1 class="text-2xl font-semibold mt-4 mb-3">Отличные показатели теплоемкости</h1>
                 <p class="mb-3 font-normal ">Подобно камню на печи в сауне, радиатор накапливает в себе тепло и мягко согревает помещение. Он долго отдает тепло, потому время активной работы (нагревания) составляет всего 7–8 часов в день. Конструкция радиаторов подразумевает отличную конвекцию – воздушные потоки нагреваются и распространяются по всему помещению.</p>
             </div>
-            <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
+            <div class="max-w-sm p-6 bg-white ">
                 <img src="icons/icons8-tools-64.png" alt="">
                 <h1 class="text-2xl font-semibold mt-4 mb-3">Отличные показатели теплоемкости</h1>
                 <p class="mb-3 font-normal ">Подобно камню на печи в сауне, радиатор накапливает в себе тепло и мягко согревает помещение. Он долго отдает тепло, потому время активной работы (нагревания) составляет всего 7–8 часов в день. Конструкция радиаторов подразумевает отличную конвекцию – воздушные потоки нагреваются и распространяются по всему помещению.</p>
             </div>
-            <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:border-gray-700">
+            <div class="max-w-sm p-6 bg-white">
                 <img src="icons/icons8-no-internet-68.png" alt="">
                 <h1 class="text-2xl font-semibold mt-4 mb-3">Отличные показатели теплоемкости</h1>
                 <p class="mb-3 font-normal ">Подобно камню на печи в сауне, радиатор накапливает в себе тепло и мягко согревает помещение. Он долго отдает тепло, потому время активной работы (нагревания) составляет всего 7–8 часов в день. Конструкция радиаторов подразумевает отличную конвекцию – воздушные потоки нагреваются и распространяются по всему помещению.</p>
@@ -333,7 +334,241 @@
 
         </div>
     </section>
-    <footer>
+
+
+
+
+
+
+    <!-- house and desription section------------- -->
+
+    <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="lg:w-4/5 mx-auto flex flex-wrap">
+            <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded-md" src="imgs/bernard-hermant-KqOLr8OiQLU-unsplash.jpg">
+            <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+              <h2 class="text-3xl font-bold font-sans title-font  tracking-widest  text-black mb-3">РАССЧИТАЙТЕ СТОИМОСТЬ ОТОПЛЕНИЯ ДОМА <br>
+                ЗА 1 МИНУТУ</h2>
+              <p class="leading-relaxed">Пройдите тест и узнайте сколько
+                радиаторов вам нужно и какой
+               будет расход электроэнергии</p>
+
+               <!-- footer text -->
+               <p class="text-center mt-40 text-lg font-bold">Сделать расчет</p>
+            
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- video section------------ -->
+      <section class="p-2">
+        <h1 class="font-bold text-4xl mt-2 mb-7 text-black flex justify-start md:text-center">Видеообзоры и отзывы</h1>
+        <!-- videos -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-2">
+            <!-- video 1 -->
+           <div>
+            <h1 class="flex justify-start text-lg mb-3">Тестируем сколько стоит отопление КАМЕННЫМИ РАДИАТОРАМИ Heat Stone (Сагит Гыйбашев)</h1>
+            <video class="w-96" controls>
+                <source src="/docs/videos/flowbite.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           </div>
+            <!-- video 2 -->
+           <div>
+            <h1 class="flex justify-start text-lg mb-3">Тестируем сколько стоит отопление КАМЕННЫМИ РАДИАТОРАМИ Heat Stone (Сагит Гыйбашев)</h1>
+            <video class="w-96" controls>
+                <source src="/docs/videos/flowbite.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           </div>
+            <!-- video 3 -->
+           <div>
+            <h1 class="flex justify-start text-lg mb-3">Тестируем сколько стоит отопление КАМЕННЫМИ РАДИАТОРАМИ Heat Stone (Сагит Гыйбашев)</h1>
+            <video class="w-96" controls>
+                <source src="/docs/videos/flowbite.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+           </div>
+  
+        </div>
+        <!-- video section footer and button -->
+        <div class="grid md:grid-cols-2 items-between mt-5">
+            <p class="text-black font-sans text-lg mt-2">Если вам интересно, то можете посмотреть отзывы, <br>
+                которые оставили клиенты на нашем Уoutube канале</p>
+                
+                <div class="grid justify-items-end mx-auto lg:mr-24" >
+                    <button type="button" class="mt-2 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-2 w-52 h-16 py-1.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Перейти на YouTube канал</button></div>
+        </div>
+      </section>
+
+<!-- accordion section -->
+    <section class="container mt-10 p-2">
+        <h1 class="text-3xl text-black font-sans font-bold mb-7">Часто задаваемые вопросы</h1>
+        <!-- accordion -->
+        <div class="mb-7 p-2">
+            
+            
+<div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+    <h2 id="accordion-flush-heading-1">
+      <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+        <span>Какие терморегуляторы можно использовать?</span>
+        <img class="" src="icons/icons8-+-24.png" alt="">
+      </button>
+    </h2>
+    <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
+      <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
+        <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+      </div>
+    </div>
+    <h2 id="accordion-flush-heading-2">
+      <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+        <span>Чем ваши радиаторы лучше конвекторов?</span>
+        <img src="icons/icons8-+-24.png" alt="">
+      </button>
+    </h2>
+    <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+      <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+        <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+      </div>
+    </div>
+    <h2 id="accordion-flush-heading-3">
+      <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+        <span>Насколько экономны такие радиаторы? Сколько энергии потребляют?</span>
+        <img src="icons/icons8-+-24.png" alt="">
+      </button>
+    </h2>
+    <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+      <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+      </div>
+    </div>
+    <h2 id="accordion-flush-heading-4">
+      <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-4">
+        <span>Как подключаются терморегуляторы?</span>
+        <img src="icons/icons8-+-24.png" alt="">
+      </button>
+    </h2>
+    <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+      <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+      </div>
+    </div>
+    <h2 id="accordion-flush-heading-5">
+      <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-5" aria-expanded="false" aria-controls="accordion-flush-body-5">
+        <span>Радиаторы точно прослужат 20 лет?</span>
+        <img src="icons/icons8-+-24.png" alt="">
+      </button>
+    </h2>
+    <div id="accordion-flush-body-5" class="hidden" aria-labelledby="accordion-flush-heading-5">
+      <div class="py-5 font-light border-b border-gray-200 dark:border-gray-700">
+        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+      </div>
+    </div>
+  </div>
+  
+
+
+            
+        </div>
+    </section>
+
+    <!-- the button under accordion -->
+    <section>
+        <div class="flex justify-center mt-7" >
+            <button type="button" class="mt-2 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-2 w-80 h-14 py-1.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Смотреть ещё</button></div>
+    </section>
+
+        <!-- form section -->
+    <section class="container-sm mt-10 p-2 grid justify-items-center">
+        <h1 class="text-center mb-8 text-4xl font-bold">Поможем в выборе!</h1>
+        <div>
+            
+<form class="">
+    <div class="mb-6">
+      <label for="email" class="block mb-2 text-lg text-gray-400 font-bold">Имя</label>
+      <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" placeholder="name@gmail.com" required>
+    </div>
+    <div class="mb-6">
+      <label for="password" class="block mb-2 text-lg text-gray-400 font-bold">Телефон</label>
+      <input type="password" id="password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required>
+    </div>
+    <div class="mb-6">
+      <label for="repeat-password" class="block mb-2 text-lg text-gray-400 font-bold">Repeat password</label>
+      <input type="password" id="repeat-password" class="shadow-sm  border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-80 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light" required>
+    </div>
+    <div class="grid justify-items-center mt-3">
+        <button type="button" class="mt-2 focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-2 w-64 h-14 py-1.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Отправить</button>
+        <p class="text-center mt-2 text-gray-500 text-sm">Нажимая на кнопку, вы соглашаетесь <br>
+            на обработку персональных данных</p>
+    </div>
+  </form>
+  
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="container mt-10 p-2">
+        <!-- footer 1st section     -->
+         <div class="text-black mt-2">
+            <header class="text-gray-400 body-font">
+                <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center text-black font-sans font-semibold">
+                  <a class="flex title-font font-semibold items-center text-lg text-black cursor-pointer">
+                    8 800 600 50 13 <br>
+                        для звонков по всей России
+                  </a>
+                  <nav class="md:ml-auto md:mr-auto flex flex-wrap  text-2xl justify-evenly font-bold ">
+                    <a class="mr-5 hover:text-blue-500 cursor-pointer">Каталог
+                    </a>
+                    <a class="mr-5 hover:text-blue-500 cursor-pointer">О нас</a>
+                    <a class="mr-5 hover:text-blue-500 cursor-pointer">Наши адреса</a>
+                    <a class="mr-5 hover:text-blue-500 cursor-pointer">Акции</a>
+                  </nav>
+                  <button type="button" class="w-64 h-16 text-white bg-[#050708] hover:bg-zinc-900 mt-2 focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 mr-2 mb-2">
+                    
+                    приглашаем к сотруднечеству
+                  </button>
+                </div>
+              </header>
+        </div>
+
+        <!-- footer 2nd section -->
+        <div class="container flex justify-between">
+            <div>
+                <p class="font-semibold text-lg font-sans">Рабочие дни: Пн-Сб <br>
+                    Рабочее время: 9:00 - 18:00 <br>
+                    heat.stone.ru@yandex.ru</p>
+            </div>
+            <div class="grid lg:grid-cols-2 mb-10">
+                <div class="">
+                    <a href=""><img class="h-16" src="icons/icons8-youtube-48.png" alt=""></a>
+            </div>
+            <div>
+                <a href=""><img class="h-16" src="icons/icons8-instagram-48.png" alt=""></a>
+            </div>
+            
+                </div>
+            </div>
+        </div>
+        
+        <hr class="border-gray-900 mb-7">
+        
+        <!-- footers footer -->
+        <div class="grid lg:grid-cols-3 justify-items-stretch">
+            <p class="text-gray-600 text-sm font-sans font-semibold mt-1">ООО «Эко Тепло»</p>
+            <p class="text-gray-600 text-sm font-sans font-semibold mt-1">Адрес: 420124, г. Казань, ул. Комиссара Габишева, 2</p>
+            <p class="text-gray-600 text-sm font-sans font-semibold underline underline-offset-8 lg:justify-self-end mt-1">Политика конфиденциальности</p>
+        </div>
 
     </footer>
 
